@@ -1,3 +1,4 @@
 import requests
+from bs4 import BeautifulSoup
 import re
-from requests_html import HTMLSession
+import json
