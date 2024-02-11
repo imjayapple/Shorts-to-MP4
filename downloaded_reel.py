@@ -25,3 +25,4 @@ else:
     print(f'Failed to download video. Status code: {response.status_code}')
 
 # Script to scrape the network tab for the 'media' files, and obtain the Request URL
+# Learning to use Selenium as the traditional way of webscraping static HTML is not sufficient
