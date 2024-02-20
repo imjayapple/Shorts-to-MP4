@@ -7,6 +7,7 @@ import requests
 # For now this works but I would like to craft a script that scrapes this specific URL automatically
 video_url = ''
 
+
 # Specify the name for the video file to be saved, right now the location is the current directory
 download_path = 'downloaded_reel.mp4'
 
