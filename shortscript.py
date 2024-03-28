@@ -5,7 +5,6 @@ from pytube import YouTube
 
 url = "" #Put URL of YouTube Video or YouTube Short here
 
-
 yt = YouTube(url)
 
 stream = yt.streams.get_highest_resolution()
