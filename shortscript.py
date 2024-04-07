@@ -11,7 +11,6 @@ stream = yt.streams.get_highest_resolution()
 
 download_path = './'
 
-
 stream.download(output_path=download_path)
 
 print(f"Downloaded '{yt.title}' to {download_path}")
