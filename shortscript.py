@@ -3,8 +3,7 @@
 import pytube
 from pytube import YouTube
 
-url = "" #Put URL of YouTube Video or YouTube Short here
-
+url = ""
 
 yt = YouTube(url)
 
