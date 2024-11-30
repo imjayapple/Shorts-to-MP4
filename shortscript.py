@@ -1,16 +1,22 @@
-# Set the download path to './' to get the video in the current directory
-# Use Relative Path to download to keep downloaded files out of the project
+# Import the entire pytube library for YouTube video processing
 import pytube
+# Import the YouTube class specifically from pytube for direct use
 from pytube import YouTube
 
-url = ""
+# Define the URL of the YouTube video to be downloaded
+url = "https://www.youtube.com/watch?v=7-a0W8G7ics&ab_channel=PatrickGavia"
 
+# Create a YouTube object using the URL, which will fetch the video's metadata
 yt = YouTube(url)
 
+# Get the highest resolution stream available for the video
 stream = yt.streams.get_highest_resolution()
 
+# Set the download path to the current directory ('./' means current directory)
 download_path = './'
 
+# Download the video to the specified path
 stream.download(output_path=download_path)
 
+# Print a confirmation message showing the video title and where it was saved
 print(f"Downloaded '{yt.title}' to {download_path}")
