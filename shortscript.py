@@ -4,7 +4,7 @@ import pytube
 from pytube import YouTube
 
 # Define the URL of the YouTube video to be downloaded
-url = "https://www.youtube.com/watch?v=7-a0W8G7ics&ab_channel=PatrickGavia"
+url = "https://www.youtube.com/shorts/WxNKCVVIWeY"
 
 # Create a YouTube object using the URL, which will fetch the video's metadata
 yt = YouTube(url)
