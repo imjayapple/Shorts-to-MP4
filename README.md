@@ -17,7 +17,7 @@ You can install `yt-dlp` using pip:
 
 ```bash
 pip install yt-dlp
-
+```
 ## Usage
 
 1. Run the program to open the UI.
@@ -30,6 +30,7 @@ pip install yt-dlp
 1. Open the program:
     ```bash
     python your_program.py
+    ```
 2. Enter the YouTube Shorts URL and the desired title in the UI.
 
 3. Submit the details. They will be added to videos.csv.
@@ -37,6 +38,7 @@ pip install yt-dlp
 4. Run the program to start downloading:
     ```bash
     python your_program.py
+    ```
 
 The program will read the videos.csv file and download each YouTube Short, saving them with the specified titles.
 
